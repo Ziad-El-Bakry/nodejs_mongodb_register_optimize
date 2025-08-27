@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Register</h2>
+    <form action="/register" method="POST">
+      <input type="text" name="name" placeholder="Enter name" required>
+      <input type="email" name="email" placeholder="Enter email" required>
+      <input type="password" name="password" placeholder="Enter password" required>
+      <button type="submit">Register</button>
+    </form>
+    <p style="text-align:center; margin-top:15px;">
+      <a href="users.html">View Registered Users</a><br><br>
+      <a href="login.html">Already have an account? Login</a>
+    </p>
+  </div>
+</body>
+</html>
